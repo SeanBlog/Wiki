@@ -1,8 +1,9 @@
 <!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- SUBTITLE: sean wiki -->
 
 ## Intro
-sean wiki
+Senior student,Major in computer science  \par
+** Love food,code and math **
 
 ## Table of Contents
 
