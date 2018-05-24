@@ -3,8 +3,7 @@
 
 ## Intro
 Senior student,Major in computer science
-
-** Love food,code and math **
+**Love food,code and math**
 
 ## Table of Contents
 
