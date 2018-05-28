@@ -9,7 +9,7 @@
 
 ## ORB-SLAM
 ### ORB Feature point
-1. ORB抽取FAST特征点，使用Rotate BUREF 作为描述算子(解决选择不一致性，利用描述patch的质心和特征点连线确定方向)，再利用Harris corner选取前几个特征点。
+1. ORB抽取FAST特征点，使用Rotate BUREF 作为描述算子(解决旋转不一致性，利用描述patch的质心和特征点连线确定方向)，再利用Harris corner选取前几个特征点。
 [Opencv Intro](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_orb/py_orb.html)
 
 ## Kalman filter
