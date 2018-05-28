@@ -6,5 +6,7 @@
 1. 硬链接是指向同一个inode
 2. 软链接的数据部分指向原文件的file name 
 3. [一个详细的说明](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html)
-4. 图片示例 ![图片 1](/uploads/图片-1.png "图片 1")
+4. 图片示例 
+
+![图片 1](/uploads/图片-1.png "图片 1")
 
