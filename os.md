@@ -8,4 +8,4 @@
 3. [一个详细的说明](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html)
 4. 图片示例 
 
-![Pic 1](/uploads/pic-1.png "Pic 1")
+![Pic 1](/uploads/pic-1.png "Pic 1"){.align-center}
