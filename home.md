@@ -7,4 +7,5 @@ Senior student,Major in computer science
 
 ## Table of Contents
 
-* [slam page](http://seanshum.cn:3001/slam)
+* [SLAM Page](http://seanshum.cn:3001/slam)
+* [OS Page](http://seanshum.cn:3001/os)
