@@ -8,5 +8,5 @@
 3. [一个详细的说明](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html)
 4. 图片示例 
 
-![图片 1](/uploads/图片-1.png "图片 1"){.align-center}
+![图片 1](https://pan.baidu.com/s/1wqD27D9BbWkMuYc4wYswlg){.align-center}
 
