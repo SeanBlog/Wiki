@@ -11,7 +11,8 @@
 
 ## PnP问题
 1. 已知对应的2D和3D点 求解相机姿态（R,T）
-2. [泡泡公开课对应视频](http://rosclub.cn/post-566.html)
+2. [泡泡公开课对应视频1-ORB-SLAM2源码详解-吴博](http://rosclub.cn/post-566.html)
+3. [泡泡公开课对应视频2rb-slam的简单讲解-冯兵](https://www.bilibili.com/video/av7102994)
 
 ## ORB-SLAM
 ### ORB Feature point
