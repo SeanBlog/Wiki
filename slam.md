@@ -10,7 +10,8 @@
 
 
 ## PnP问题
-1. [泡泡公开课对应视频](http://rosclub.cn/post-566.html)
+1. 已知对应的2D和3D点 求解相机姿态（R,T）
+2. [泡泡公开课对应视频](http://rosclub.cn/post-566.html)
 
 ## ORB-SLAM
 ### ORB Feature point
