@@ -8,6 +8,10 @@
 2. **SLAM非常经典的公开课** 看完基本上视觉SLAM应该比较清楚了[泡泡机器人公开课](http://rosclub.cn/post-1065.html)
 
 
+
+## PnP问题
+1. [泡泡公开课对应视频](http://rosclub.cn/post-566.html)
+
 ## ORB-SLAM
 ### ORB Feature point
 1. ORB抽取FAST特征点，使用Rotate BUREF 作为描述算子(解决旋转不一致性，利用描述patch的质心和特征点连线确定方向)，再利用Harris corner选取前几个特征点。
