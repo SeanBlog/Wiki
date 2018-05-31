@@ -11,10 +11,14 @@
 
 ## PnP问题
 1. 已知对应的2D和3D点 求解相机姿态（R,T）
-2. [泡泡公开课对应视频1-ORB-SLAM2源码详解-吴博](http://rosclub.cn/post-566.html)
-3. [泡泡公开课对应视频2rb-slam的简单讲解-冯兵](https://www.bilibili.com/video/av7102994)
+2. [泡泡公开课对应视频-PnP 算法简介&代码解析-柴政](http://rosclub.cn/post-566.html)
 
 ## ORB-SLAM
+### online course
+
+1. [泡泡公开课对应视频-ORB-SLAM2源码详解-吴博](http://rosclub.cn/post-505.html)
+2. [泡泡公开课对应视频-orb-slam的简单讲解-冯兵](https://www.bilibili.com/video/av7102994)
+
 ### ORB Feature point
 1. ORB抽取FAST特征点，使用Rotate BUREF 作为描述算子(解决旋转不一致性，利用描述patch的质心和特征点连线确定方向)，再利用Harris corner选取前几个特征点。
 [Opencv Intro](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_orb/py_orb.html)
