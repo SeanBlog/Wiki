@@ -8,6 +8,8 @@
 2. **SLAM非常经典的公开课** 看完基本上视觉SLAM应该比较清楚了[泡泡机器人公开课](http://rosclub.cn/post-1065.html)
 
 
+## 三角化测量深度
+1. [三角化---深度滤波器](http://www.mamicode.com/info-detail-2061030.html)
 
 ## PnP问题
 1. 已知对应的2D和3D点 求解相机姿态（R,T）
