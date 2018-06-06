@@ -9,7 +9,8 @@
 
 
 ## 三角化测量深度
-1. [三角化---深度滤波器](http://www.mamicode.com/info-detail-2061030.html)
+1. [对极几何基本概念](https://blog.csdn.net/tina_ttl/article/details/52749542#3-%E5%AF%B9%E6%9E%81%E5%87%A0%E4%BD%95%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5)
+2. [三角化---深度滤波器](http://www.mamicode.com/info-detail-2061030.html)
 
 ## PnP问题
 1. 已知对应的2D和3D点 求解相机姿态（R,T）
