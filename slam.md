@@ -8,6 +8,9 @@
 2. **SLAM非常经典的公开课** 看完基本上视觉SLAM应该比较清楚了[泡泡机器人公开课](http://rosclub.cn/post-1065.html)
 
 
+## 相机模型
+1.[相机内参矩阵](https://www.cnblogs.com/Jessica-jie/p/6596450.html)
+
 ## 三角化测量深度
 1. [对极几何基本概念](https://blog.csdn.net/tina_ttl/article/details/52749542#3-%E5%AF%B9%E6%9E%81%E5%87%A0%E4%BD%95%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5)
 2. [三角化---深度滤波器](http://www.mamicode.com/info-detail-2061030.html)
