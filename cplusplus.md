@@ -18,3 +18,15 @@
 * Static:全局变量和静态变量(initialized data那里)
 
 ![2](/uploads/2.png "2")
+
+### vector 的push_back的数据传递
+* [relater problem](https://stackoverflow.com/questions/2275076/is-stdvector-copying-the-objects-with-a-push-back)
+
+‘’‘
+C++ 11
+void push_back (const value_type& val);
+void push_back (value_type&& val);
+
+C++ 98
+void push_back (const value_type& val);
+’‘’
