@@ -34,7 +34,6 @@ void push_back (const value_type& val);
 * C++ 中的vector中存储的是拷贝的变量，但是你存进去的时候是以const T &的，避免多次拷贝（The object you push is passed by reference to avoid extra copy. Then a copy is placed in the vector.）
 * 可以看[stackoverflow的一个回答](https://stackoverflow.com/questions/11762474/c-stl-vector-push-back-taking-reference)：
 
-
 The other option would be
 void push_back(T x);
 that is, taking x by value. However, this would (in C++03) result in creating an extra copy of x(the copy in the arguments to push_back). Taking x by const reference avoids this.
