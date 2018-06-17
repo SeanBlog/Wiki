@@ -2,6 +2,7 @@
 <!-- SUBTITLE:杂七杂八 学过丢掉 用过忘记 突然记起来的点 -->
 
 # # # Struct VS Class
+
 1. 	Class 默认data和function是private的 struct默认是public的
 2.  其他的还有一些类class的特性的区别（比如construct function,destruction function） 不过关键是第一点
 3.  [ref](https://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c)
