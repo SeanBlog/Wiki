@@ -22,11 +22,33 @@
 ### vector 的push_back的数据传递
 * [relater problem](https://stackoverflow.com/questions/2275076/is-stdvector-copying-the-objects-with-a-push-back)
 
-‘’‘
+```text
 C++ 11
 void push_back (const value_type& val);
 void push_back (value_type&& val);
 
 C++ 98
 void push_back (const value_type& val);
-’‘’
+```
+
+* C++ 中的vector中存储的是拷贝的变量，但是你存进去的时候是以const T &的，避免多次拷贝（The object you push is passed by reference to avoid extra copy. Then a copy is placed in the vector.）
+* 可以看[stackoverflow的一个回答](https://stackoverflow.com/questions/11762474/c-stl-vector-push-back-taking-reference)：
+
+```text
+The other option would be
+void push_back(T x);
+that is, taking x by value. However, this would (in C++03) result in creating an extra copy of x(the copy in the arguments to push_back). Taking x by const reference avoids this.
+Let's look at the stack for a call v.push_back(T()) taken by value:
+v.push_back(T());                      // instance of T
+void std::vector<T>::push_back(T x)    // copy of T
+new (data_[size_ - 1]) T(x)            // copy of copy of T
+Taking by const reference we get:
+v.push_back(T());                             // instance of T
+void std::vector<T>::push_back(const T &x)    // const reference to T
+new (data_[size_ - 1]) T(x)                   // copy of T
+In C++11 it would be possible (though unnecessary) to take x by value and use std::move to move it onto the vector:
+v.push_back(T());                             // instance of T
+void std::vector<T>::push_back(T x)           // copy of T
+new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
+
+```
