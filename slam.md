@@ -35,3 +35,4 @@
 
 ## ROS
 [ros code simple api](http://wiki.ros.org/rosbag/Code%20API)
+[add custom msg](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
