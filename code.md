@@ -88,3 +88,7 @@ new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 3. [What is the difference between “git init” and “git init --bare?](https://stackoverflow.com/questions/7861184/what-is-the-difference-between-git-init-and-git-init-bare)
 4. [How do you use “git --bare init” repository?](https://stackoverflow.com/questions/7632454/how-do-you-use-git-bare-init-repository)
 
+## --work-tree --git-dir
+1. git-dir指定的是.git所在目录（保存版本信息）
+2. work-tree是工作区，通常是和.git所在同级目录的源码
+3. git --git-dir=file-system-folder/.git --work-tree=file-system-folder checkout existing-branch(切换file-system-folder到file-system-folder/.git中的existing-branch)
