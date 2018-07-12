@@ -9,3 +9,11 @@
 4. 图片示例 
 
 ![Pic 1](/uploads/pic-1.png "Pic 1"){.align-center}
+
+
+
+## Linux commond
+### htop
+1. 升级版本的top
+2. 功能更多 更加好用
+3. 监听线程，cpu，disk，memory，/搜索命令，u选择用户，根据cpu等排序
