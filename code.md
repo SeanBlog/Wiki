@@ -74,3 +74,9 @@ new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 1. dev branch针对需求开发
 2. 解决后再合并到master，合并后删除无用branch（太多会影响认别）
 3. [example1](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000) [廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)
+
+## git hook
+1. git push 或者pull触发相关脚本
+2. 可用来提交简单的代码到服务器或者其他线上
+3. [例子](https://ma.ttias.be/simple-git-push-workflow-deploy-code-server/)
+4. [基本语法](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90)
