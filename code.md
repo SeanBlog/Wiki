@@ -1,7 +1,8 @@
 <!-- TITLE: Code -->
 <!-- SUBTITLE: A quick summary of Code -->
 
-# Header
+# Intro
+
 
 # C++
 ## Struct VS Class
@@ -60,3 +61,16 @@ v.push_back(T());                             // instance of T
 void std::vector<T>::push_back(T x)           // copy of T
 new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 ```
+
+
+# Git
+
+## git solve conflict
+1. git diff看冲突在哪里
+2. 修改冲突代码
+3. 再commit即可 
+
+## git branch
+1. dev branch针对需求开发
+2. 解决后再合并到master，合并后删除无用branch（太多会影响认别）
+3. [example1](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000) [廖雪峰](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)
