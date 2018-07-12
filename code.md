@@ -2,3 +2,61 @@
 <!-- SUBTITLE: A quick summary of Code -->
 
 # Header
+
+# C++
+## Struct VS Class
+
+* Class 默认data和function是private的 struct默认是public的
+* 其他的还有一些类class的特性的区别（比如construct function,destruction function） 不过关键是第一点 [ref](https://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c)
+* 何时使用struct或者class？
+	* 针对POD type的数据 采用struct，其他的采用class 
+	* 如果数据要求是private的从使用clas
+* 什么是POD：
+* A Plain Old Data Structure in C++ is an aggregate class that contains only PODS as members, has no user-defined destructor, no user-defined copy assignment operator, and no nonstatic members of pointer-to-member type.  [ref]( <https://stackoverflow.com/questions/146452/what-are-pod-types-in-c> )
+
+## Stack VS heap VS static
+
+* Stack 高地址 编译器自己管理
+* Heap 低地址 malloc new之类的 程序员管理 不然内存泄漏
+* Static:全局变量和静态变量(initialized data那里)
+
+![2](/uploads/2.png "2")
+
+## vector 的push_back的数据传递
+* [relater problem](https://stackoverflow.com/questions/2275076/is-stdvector-copying-the-objects-with-a-push-back)
+
+```text
+C++ 11
+void push_back (const value_type& val);
+void push_back (value_type&& val);
+
+C++ 98
+void push_back (const value_type& val);
+```
+
+* C++ 中的vector中存储的是拷贝的变量，但是你存进去的时候是以const T &的，避免多次拷贝（The object you push is passed by reference to avoid extra copy. Then a copy is placed in the vector.）
+* 可以看[stackoverflow的一个回答](https://stackoverflow.com/questions/11762474/c-stl-vector-push-back-taking-reference)：
+
+The other option would be
+void push_back(T x);
+that is, taking x by value. However, this would (in C++03) result in creating an extra copy of x(the copy in the arguments to push_back). Taking x by const reference avoids this.
+Let's look at the stack for a call v.push_back(T()) taken by value:
+```text
+v.push_back(T());                      // instance of T
+void std::vector<T>::push_back(T x)    // copy of T
+new (data_[size_ - 1]) T(x)            // copy of copy of T
+```
+
+Taking by const reference we get:
+```text
+v.push_back(T());                             // instance of T
+void std::vector<T>::push_back(const T &x)    // const reference to T
+new (data_[size_ - 1]) T(x)                   // copy of T
+```
+
+In C++11 it would be possible (though unnecessary) to take x by value and use std::move to move it onto the vector:
+```text
+v.push_back(T());                             // instance of T
+void std::vector<T>::push_back(T x)           // copy of T
+new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
+```
