@@ -80,3 +80,11 @@ new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 2. 可用来提交简单的代码到服务器或者其他线上
 3. [例子](https://ma.ttias.be/simple-git-push-workflow-deploy-code-server/)
 4. [基本语法](https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E9%92%A9%E5%AD%90)
+
+
+## git init vs git init --bare
+1. git init --bare创建的是git的裸库 没有work tree，只有.git里面的版本信息
+2. 常用来做中央版本库或者git服务器（其实就是规定没有人可以在上面git add.之类的，只允许push or pull）
+3. [What is the difference between “git init” and “git init --bare?](https://stackoverflow.com/questions/7861184/what-is-the-difference-between-git-init-and-git-init-bare)
+4. [How do you use “git --bare init” repository?](https://stackoverflow.com/questions/7632454/how-do-you-use-git-bare-init-repository)
+
