@@ -9,4 +9,4 @@
 2. 具体的操作流程为备份原先的source.list，在清华大学TUNA官网发布的[Ubuntu 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)中到对应的源，替换原先的source.list，sudo apt-get update更新即可
 3. [参考流程](https://segmentfault.com/a/1190000012572571)
 4. 还可以安装apt-fast 多线程下载
-5. [没有sudo权限怎么apt-get install]（https://unix.stackexchange.com/questions/42567/how-to-install-program-locally-without-sudo-privileges) 非常麻烦，下载源码，编译安装，下载依赖，更新环境变量
+5. [没有sudo权限怎么apt-get install](https://unix.stackexchange.com/questions/42567/how-to-install-program-locally-without-sudo-privileges) 非常麻烦，下载源码，编译安装，下载依赖，更新环境变量
