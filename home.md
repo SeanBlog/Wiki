@@ -11,5 +11,5 @@ Senior student,Major in computer science
 * [OS&Network Page](http://seanshum.cn:3001/os)
 * [Config Page](http://seanshum.cn:3001/config-page)
 * [Compile Page](http://seanshum.cn:3001/compile)
-* [CPlusPlus](http://seanshum.cn:3001/cplusplus)
+* [Code](http://seanshum.cn:3001/code)
 * [Data Visualization](http://seanshum.cn:3001/data-visualization)
