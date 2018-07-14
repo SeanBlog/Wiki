@@ -102,3 +102,8 @@ git submodule init  //初始化注册
 git submodule update  //clone submodule project
 
 ```
+
+## git .gitignore
+1. git的.gitignore可以不对一些文件进行版本管理,[廖雪峰的blog介绍](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)主要优势在于：
+	2.  不对数据文件进行管理 避免git越来越大
+	3.  不对一些经常修改的或者本机配置的文件管理(避免每次去拉别人的代码都要修改配置文件)
