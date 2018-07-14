@@ -1,11 +1,11 @@
 <!-- TITLE: Home -->
 <!-- SUBTITLE: sean wiki -->
 
-## Intro
+# Intro
 Senior student,Major in computer science
 **Love food,code and math**
 
-## Table of Contents
+# Table of Contents
 
 * [SLAM Page](http://seanshum.cn:3001/slam)
 * [OS&Network Page](http://seanshum.cn:3001/os)
@@ -14,9 +14,9 @@ Senior student,Major in computer science
 * [Code](http://seanshum.cn:3001/code)
 * [Data Visualization](http://seanshum.cn:3001/data-visualization)
 
-## Page Content introduction
-### SLAM Page
-### Code page
+# Page Content introduction
+## SLAM Page
+## Code page
 1. C++
 2. Python
 3. Git
