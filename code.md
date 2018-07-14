@@ -92,3 +92,13 @@ new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 1. git-dir指定的是.git所在目录（保存版本信息）
 2. work-tree是工作区，通常是和.git所在同级目录的源码
 3. git --git-dir=file-system-folder/.git --work-tree=file-system-folder checkout existing-branch(切换file-system-folder到file-system-folder/.git中的existing-branch)
+
+## git submodule
+1. project 里面有project
+2. [相关介绍](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97)
+```
+git submodule add  //添加 
+git submodule init  //初始化注册
+git submodule update  //clone submodule project
+
+```
