@@ -103,6 +103,20 @@ git submodule update  //clone submodule project
 
 ```
 
+
+## git stage, working street, 版本库
+1. [廖雪峰blog](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000)
+![Gitstage](/uploads/gitstage.jpg "Gitstage"){.align-center}
+
+
+
+## git diff
+1. git diff 不加参数即默认比较工作区与暂存区
+2.  git diff [<options>] --cached [<commit>] [--] [<path>…​]  比较暂存区（stage）与对应提交
+3. git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提交
+4. [相关说明](https://www.git-scm.com/docs/git-diff)
+
+
 ## git .gitignore
 1. [廖雪峰的blog介绍](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000)
 2. git的.gitignore可以不对一些文件进行版本管理,主要优势在于：
