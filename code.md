@@ -111,11 +111,13 @@ git submodule update  //clone submodule project
 
 
 ## git diff
-1. git diff 不加参数即默认比较工作区与暂存区
-2.  git diff [<options>] --cached [<commit>] [--] [<path>…]  比较暂存区（stage）与对应提交
-3. git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提交
-4. [相关说明](https://www.git-scm.com/docs/git-diff)
-5. 
+```
+git diff 不加参数即默认比较工作区与暂存区
+git diff [<options>] --cached [<commit>] [--] [<path>…]  比较暂存区（stage）与对应提交
+git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提交
+```
+1. [相关说明](https://www.git-scm.com/docs/git-diff)
+
 
 
 ## git .gitignore
