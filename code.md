@@ -5,6 +5,13 @@
 
 
 # C++
+
+## vector memory management
+* 没有指明构造 默认是分配在heap上 超出scope释放 [where-does-a-stdvector-allocate-its-memory](https://stackoverflow.com/questions/10366474/where-does-a-stdvector-allocate-its-memory)
+* 对于大的数组 采用vector[segmentation-fault-on-large-array-sizes](https://stackoverflow.com/questions/1847789/segmentation-fault-on-large-array-sizes)
+	* array 分配在stack上 内存不一定够
+	* 用 new申请array，要独自管理释放 需避免这情况
+
 ## Struct VS Class
 
 * Class 默认data和function是private的 struct默认是public的
