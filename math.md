@@ -3,6 +3,10 @@
 
 #  Linear Algebra 
 
+## Jacobian矩阵
+1. 一阶偏导数以一定方式排列成的矩阵, 行列式称为雅可比行列式
+![Jacobian](/uploads/jacobian.png "Jacobian"){.align-center}
+
 ## Cholesky 分解
 1. [wiki说明](https://zh.wikipedia.org/wiki/Cholesky%E5%88%86%E8%A7%A3)
 2. [简单直接的blog](https://www.qiujiawei.com/linear-algebra-11/)
