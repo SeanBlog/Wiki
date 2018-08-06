@@ -13,7 +13,8 @@ Senior student,Major in computer science
 * [Compile Page](http://seanshum.cn:3001/compile)
 * [Code](http://seanshum.cn:3001/code)
 * [Data Visualization](http://seanshum.cn:3001/data-visualization)
-
+* [Math](http://seanshum.cn:3001/math)
+* [Machine Learning](http://seanshum.cn:3001/machine-learning)
 # Page Content introduction
 ## SLAM Page
 ## Code page
