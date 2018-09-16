@@ -15,6 +15,13 @@
 
 
 
+# Optimization
+
+## 非线性优化
+### 高斯牛顿
+1. 泰勒
+
+
 
 
 # other fun code
