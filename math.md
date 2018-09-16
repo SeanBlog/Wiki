@@ -19,8 +19,14 @@
 
 ## 非线性优化
 ### 高斯牛顿
-1. 泰勒展开
+1. 泰勒展开 转换为线性优化 不断迭代求解
+2. [高斯牛顿](https://blog.csdn.net/tywwwww/article/details/77720360)
 
+### L-M
+1. 相比高斯牛顿，引入一个\lambda I(I 为正定矩阵)加入到步长更新上
+2. 控制步长 根据情况调整迭代速度
+3. 同时泰勒展开的并不一定有解 引入\lambda I解决这个问题
+4. [L-M](https://blog.csdn.net/tywwwww/article/details/77720360)
 
 
 
