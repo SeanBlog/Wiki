@@ -12,7 +12,7 @@
 5. [没有sudo权限怎么apt-get install](https://unix.stackexchange.com/questions/42567/how-to-install-program-locally-without-sudo-privileges) 非常麻烦，下载源码，编译安装，下载依赖，更新环境变量
 
 ## Idconfig
-1. 更新动态链接库，默认搜寻/lilb和/usr/lib，以及配置文件/etc/ld.so.conf内所列的目录下的库文件。 .so .lib
+1. 更新动态链接库，默认搜寻/lilb和/usr/lib，以及配置文件/etc/ld.so.conf内所列的目录下的库文件。 lib*.so*
 2. [相关说明](https://blog.csdn.net/chenzixun0/article/details/56278632)
 
 # install some tools
