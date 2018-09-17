@@ -5,6 +5,9 @@
 
 
 # C++
+## explict
+* 避免implict 构造
+* [What does the explicit keyword mean?](https://stackoverflow.com/questions/121162/what-does-the-explicit-keyword-mean)
 
 ## make_pair
 * [cplusplus make_pair](http://www.cplusplus.com/reference/utility/make_pair/)
