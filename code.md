@@ -6,6 +6,9 @@
 
 # C++
 
+## struct initialization
+* [struct初始化(C&C++)](https://www.cnblogs.com/heartchord/p/4797723.html)
+
 ## vector memory management
 * 没有指明构造 默认是分配在heap上 超出scope释放 [where-does-a-stdvector-allocate-its-memory](https://stackoverflow.com/questions/10366474/where-does-a-stdvector-allocate-its-memory)
 * 对于大的数组 采用vector[segmentation-fault-on-large-array-sizes](https://stackoverflow.com/questions/1847789/segmentation-fault-on-large-array-sizes)
