@@ -6,14 +6,23 @@
 
 # C++
 
-## struct initialization
-* [struct初始化(C&C++)](https://www.cnblogs.com/heartchord/p/4797723.html)
+
 
 ## vector memory management
 * 没有指明构造 默认是分配在heap上 超出scope释放 [where-does-a-stdvector-allocate-its-memory](https://stackoverflow.com/questions/10366474/where-does-a-stdvector-allocate-its-memory)
 * 对于大的数组 采用vector[segmentation-fault-on-large-array-sizes](https://stackoverflow.com/questions/1847789/segmentation-fault-on-large-array-sizes)
 	* array 分配在stack上 内存不一定够
 	* 用 new申请array，要独自管理释放 需避免这情况
+
+
+## vector resize vs reserve
+* resize change size, reserve change capacity
+* [vector的reserve和resize](https://www.cnblogs.com/qlee/archive/2011/05/16/2048026.html)
+* [vector容器中resize与reserve的区别](https://blog.csdn.net/mm_hh/article/details/63696078)
+
+## struct initialization
+* [struct初始化(C&C++)](https://www.cnblogs.com/heartchord/p/4797723.html)
+
 
 ## Struct VS Class
 
