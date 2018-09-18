@@ -37,6 +37,14 @@ Senior student,Major in computer science
 * catkin
 
 ## Code page
-1. C++
-2. Python
-3. Git
+* C++
+* Git
+
+## Data Visualization
+* D3.js
+
+
+##
+* Linear Algebra
+* Optimization
+* other fun code
