@@ -17,6 +17,25 @@ Senior student,Major in computer science
 * [Machine Learning](http://seanshum.cn:3001/machine-learning)
 # Page Content introduction
 ## SLAM Page
+* Resource
+* 基本知识
+* PnP问题
+* 经典框架
+* ROS
+
+## OS&Network Page
+* File System
+* Linux commond
+* Network basic concept
+
+## Config Page
+* Linux
+* install some tools
+
+## Compile Page
+* cmake
+* catkin
+
 ## Code page
 1. C++
 2. Python
