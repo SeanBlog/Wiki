@@ -29,6 +29,9 @@
 4. [L-M](https://blog.csdn.net/tywwwww/article/details/77720360)
 
 
+### 拉格朗日乘子法
+1.  [深入理解拉格朗日乘子法（Lagrange Multiplier) 和KKT条件](https://blog.csdn.net/lijil168/article/details/69395023)
+2.  条件的限制通过对待定系数求导＝０来控制
 
 # other fun code
 
