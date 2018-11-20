@@ -5,8 +5,15 @@
 
 
 # C++
+
+## copy construct
+1. 什么是copy construct [C++ Copy Constructor (拷贝构造函数,复制构造函数)](https://blog.csdn.net/fox64194167/article/details/21174575)
+2. 什么时候需要自己写copy construct 需要deep copy的时候　编译器生成的是逐元素复制的 eg 指针直接复制地址　一个被删除后　另外一个也无用了　delete 2次 [When do we have to use copy constructors?](https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors/37628066)
+
+
 ## explict
 * 避免implicit 构造
+* 避免调用construct函数　讲参数转为类
 * [What does the explicit keyword mean?](https://stackoverflow.com/questions/121162/what-does-the-explicit-keyword-mean)
 
 ## make_pair
