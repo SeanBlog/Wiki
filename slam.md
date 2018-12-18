@@ -12,8 +12,8 @@
 ## 相机模型
 1.[相机内参矩阵](https://www.cnblogs.com/Jessica-jie/p/6596450.html)
 2.相机畸变
-	* [相机标定之畸变矫正与反畸变计算](https://www.cnblogs.com/mafuqiang/p/8134617.html)
-	* [opencv 去畸变源代码实现](https://github.com/opencv/opencv/blob/master/modules/calib3d/src/undistort.cpp)
+	*  [相机标定之畸变矫正与反畸变计算](https://www.cnblogs.com/mafuqiang/p/8134617.html)
+	*  [opencv 去畸变源代码实现](https://github.com/opencv/opencv/blob/master/modules/calib3d/src/undistort.cpp)
 
 ## 三角化测量深度
 1. [对极几何基本概念](https://blog.csdn.net/tina_ttl/article/details/52749542#3-%E5%AF%B9%E6%9E%81%E5%87%A0%E4%BD%95%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5)
