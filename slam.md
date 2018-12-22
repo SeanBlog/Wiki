@@ -5,6 +5,7 @@
 # Resource
 1. 半闲居士在国内的SLAM领域的地位毋庸置疑，他的blog上有一些他整理和维护的资源[resource](https://www.cnblogs.com/gaoxiang12/p/5762702.html)
 2. **SLAM非常经典的公开课** 看完基本上视觉SLAM应该比较清楚了[泡泡机器人公开课](http://rosclub.cn/post-1065.html)
+3. [SLAM14讲答案](https://blog.csdn.net/jiahao62/article/details/80655542)
 
 
 
