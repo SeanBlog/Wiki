@@ -19,6 +19,9 @@
 2. 功能更多 更加好用
 3. 监听线程，cpu，disk，memory，/搜索命令，u选择用户，根据cpu等排序
 
+### scp use regression
+1. 需要scp "sevrver@ip:ssssss" xxxx
+2. [How to scp with regular expressions](https://unix.stackexchange.com/questions/67055/how-to-scp-with-regular-expressions)
 
 # Network
 ## basic concept
