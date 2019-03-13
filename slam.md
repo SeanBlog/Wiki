@@ -38,6 +38,11 @@
 ## EPnP
 
 
+
+## 边缘化
+１．[SLAM中的marginalization 和 Schur complement](https://blog.csdn.net/heyijia0327/article/details/52822104)
+
+
 # 经典框架
 ## ORB-SLAM
 ### online course
