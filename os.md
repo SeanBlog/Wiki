@@ -48,6 +48,9 @@
 
 ![Gateway](/uploads/gateway.jpg "Gateway"){.align-center}
 
+### mac
+1. [mac address](https://en.wikipedia.org/wiki/MAC_address)
+2. [mac spoofing](https://en.wikipedia.org/wiki/MAC_spoofing)
 
 ### ifconfig in mac
 1. [Mac OS X ifconfig命令解释](https://blog.csdn.net/yangziluomu/article/details/75043171)
