@@ -14,6 +14,11 @@
 ## Idconfig
 1. 更新动态链接库，默认搜寻/lilb和/usr/lib，以及配置文件/etc/ld.so.conf内所列的目录下的库文件。 lib*.so*
 2. [相关说明](https://blog.csdn.net/chenzixun0/article/details/56278632)
+3.  [linux ldconfig命令,环境变量文件配置详解](https://blog.csdn.net/winycg/article/details/80572735)
+
+### LD_LIBRARY_PATH
+1. [what-is-the-difference-between-path-and-ld-library-path](https://unix.stackexchange.com/questions/44990/what-is-the-difference-between-path-and-ld-library-path)
+2.  动态库的查找路径
 
 # install some tools
 ## install opencv
