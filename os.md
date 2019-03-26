@@ -15,6 +15,11 @@
 ## config
 ### ldconfig
 1. [linux ldconfig命令,环境变量文件配置详解](https://blog.csdn.net/winycg/article/details/80572735)
+2. Idconfig 对所有用户配置动态库查找路径
+
+### LD_LIBRARY_PATH
+1. [what-is-the-difference-between-path-and-ld-library-path](https://unix.stackexchange.com/questions/44990/what-is-the-difference-between-path-and-ld-library-path)
+2. 
 
 
 ## Linux commond
