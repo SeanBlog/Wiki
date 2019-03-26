@@ -19,7 +19,7 @@
 
 ### LD_LIBRARY_PATH
 1. [what-is-the-difference-between-path-and-ld-library-path](https://unix.stackexchange.com/questions/44990/what-is-the-difference-between-path-and-ld-library-path)
-2. 
+2.  动态库的查找路径
 
 
 ## Linux commond
