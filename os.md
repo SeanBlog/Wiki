@@ -12,6 +12,10 @@
 ![Pic 1](/uploads/pic-1.png "Pic 1"){.align-center}
 
 
+## config
+### ldconfig
+1. [linux ldconfig命令,环境变量文件配置详解](https://blog.csdn.net/winycg/article/details/80572735)
+
 
 ## Linux commond
 ### htop
@@ -23,6 +27,9 @@
 1. 需要scp "sevrver@ip:ssssss" xxxx
 2. [How to scp with regular expressions](https://unix.stackexchange.com/questions/67055/how-to-scp-with-regular-expressions)
 
+
+### export
+1. Linux export命令用于设置或显示环境变量。export可新增，修改或删除环境变量。export的效力仅及于该次登陆操作
 # Network
 ## basic concept
 1. [一个蛮不错的blog](http://www.cnblogs.com/JuneWang/p/3917697.html)
