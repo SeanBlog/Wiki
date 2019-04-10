@@ -13,6 +13,11 @@
 	2. 编译器生成的是逐元素复制的 eg 指针直接复制地址　一个被删除后　另外一个也无用了　同时还会delete 2次 
 
 
+## auto
+* [C++ auto 关键字的使用](https://www.cnblogs.com/KunLunSu/p/7861330.html)
+* [C++ auto keyword. Why is it magic?](https://stackoverflow.com/questions/7576953/c-auto-keyword-why-is-it-magic)
+
+
 ## explict
 * 避免implicit 构造
 * 避免调用construct函数　讲参数转为类
