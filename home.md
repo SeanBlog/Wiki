@@ -2,7 +2,7 @@
 <!-- SUBTITLE: sean wiki -->
 
 # Intro
-Senior student,Major in computer science
+Postgraduate student,Major in computer science
 **Love food,code and math**
 
 # Table of Contents
