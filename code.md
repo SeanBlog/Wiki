@@ -163,3 +163,11 @@ git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提�
 2. git的.gitignore可以不对一些文件进行版本管理,主要优势在于：
 3.  不对数据文件进行管理 避免git越来越大
 4.  不对一些经常修改的或者本机配置的文件管理(避免每次去拉别人的代码都要修改配置文件)
+
+
+# python
+
+## super
+1. super 指向的是继承顺序的下一个类，有第一个参数决定
+2. 可以避免多继承里面的多次调用base类
+3. [python类中super()和__init__()的区别](https://www.cnblogs.com/jhao/p/5972914.html)
