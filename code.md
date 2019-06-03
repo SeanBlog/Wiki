@@ -171,3 +171,9 @@ git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提�
 1. super 指向的是继承顺序的下一个类，有第一个参数决定
 2. 可以避免多继承里面的多次调用base类
 3. [python类中super()和__init__()的区别](https://www.cnblogs.com/jhao/p/5972914.html)
+
+
+
+# shell
+## copy-multiple-files-via-cp-from-a-string
+1. [copy-multiple-files-via-cp-from-a-string](https://superuser.com/questions/557166/copy-multiple-files-via-cp-from-a-string)
