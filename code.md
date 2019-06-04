@@ -27,6 +27,13 @@
 ## auto
 * [C++ auto 关键字的使用](https://www.cnblogs.com/KunLunSu/p/7861330.html)
 * [C++ auto keyword. Why is it magic?](https://stackoverflow.com/questions/7576953/c-auto-keyword-why-is-it-magic)
+* auto, auto &, auto &&, const auto & [auto, auto&, const auto&以及其它形式的auto变种在for-range loop的选择](https://zhuanlan.zhihu.com/p/25148592)
+	*  当你想要拷贝range的元素时，使用for(auto x : range).
+	*  当你想要修改range的元素时，使用for(auto && x : range).
+		*  处理不含有proxy class reference的range时，for(auto & x : range)
+		*  含有proxy class reference时的range时，for(auto && x : range)
+	*  当你想要只读range的元素时，使用for(const auto & x : range).
+	*  其他的auto变种，几乎没有作用
 
 
 ## explict
