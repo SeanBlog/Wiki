@@ -13,6 +13,10 @@
 * 并不一定就是好
 * [non-optional pointers vs. non-const references in C++](https://softwareengineering.stackexchange.com/questions/299021/non-optional-pointers-vs-non-const-references-in-c),[Avoid non-const reference parameters](https://stackoverflow.com/questions/31632716/avoid-non-const-reference-parameters)
 
+### reference vs point
+* refenence 就是一个别名，pointer是一个新的变量，值是pointer指向变量的地址
+* [What are the differences between a pointer variable and a reference variable in C++?](https://stackoverflow.com/questions/57483/what-are-the-differences-between-a-pointer-variable-and-a-reference-variable-in?page=1&tab=votes#tab-top)
+
 ## copy construct
 * 什么是copy construct [C++ Copy Constructor (拷贝构造函数,复制构造函数)](https://blog.csdn.net/fox64194167/article/details/21174575)
 * 什么时候需要自己写copy construct [When do we have to use copy constructors?](https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors/37628066)
