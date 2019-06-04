@@ -24,6 +24,18 @@
 	2. 编译器生成的是逐元素复制的 eg 指针直接复制地址　一个被删除后　另外一个也无用了　同时还会delete 2次 
 
 
+## rvalue
+### rvalue vs lvalue
+* 等式左右边都可以出现的是lvalue,只能出现在右边的是rvalue
+* const T & 可以捕获rvalue，还有T && 也可以捕获rvalue
+* [C++ 左值引用与右值引用](https://blog.csdn.net/thisinnocence/article/details/23883483)
+
+### rvalue reference的好处?
+
+### A forwarding reference？
+*[C++ pass parameter by rvalue reference if possible, otherwise copy the lvalue reference](https://stackoverflow.com/questions/42977649/c-pass-parameter-by-rvalue-reference-if-possible-otherwise-copy-the-lvalue-re)
+
+
 ## auto
 * [C++ auto 关键字的使用](https://www.cnblogs.com/KunLunSu/p/7861330.html)
 * [C++ auto keyword. Why is it magic?](https://stackoverflow.com/questions/7576953/c-auto-keyword-why-is-it-magic)
