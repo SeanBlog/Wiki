@@ -13,7 +13,7 @@
 * 并不一定就是好
 * [non-optional pointers vs. non-const references in C++](https://softwareengineering.stackexchange.com/questions/299021/non-optional-pointers-vs-non-const-references-in-c),[Avoid non-const reference parameters](https://stackoverflow.com/questions/31632716/avoid-non-const-reference-parameters)
 
-### reference vs point
+### reference vs pointer
 * refenence 就是一个别名，pointer是一个新的变量，值是pointer指向变量的地址
 * [What are the differences between a pointer variable and a reference variable in C++?](https://stackoverflow.com/questions/57483/what-are-the-differences-between-a-pointer-variable-and-a-reference-variable-in?page=1&tab=votes#tab-top)
 
