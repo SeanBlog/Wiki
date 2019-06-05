@@ -20,7 +20,7 @@
 1. 升级版本的top
 2. 功能更多 更加好用
 3. 监听线程，cpu，disk，memory，/搜索命令，u选择用户，根据cpu等排序
-
+4. 注意 htop默认会将thread也当成独立的process来显示，和ps -AL一样，同时thread之间切换很快，你无法确定是哪个在工作，可以按H显示main process，反应整个process占的资源等[Why are there many processes listed under the same title in htop?](https://superuser.com/questions/118086/why-are-there-many-processes-listed-under-the-same-title-in-htophttps://superuser.com/questions/118086/why-are-there-many-processes-listed-under-the-same-title-in-htop)
 ### scp use regression
 1. 需要scp "sevrver@ip:ssssss" xxxx
 2. [How to scp with regular expressions](https://unix.stackexchange.com/questions/67055/how-to-scp-with-regular-expressions)
