@@ -28,6 +28,13 @@
 
 ### export
 1. Linux export命令用于设置或显示环境变量。export可新增，修改或删除环境变量。export的效力仅及于该次登陆操作
+
+
+### source
+1. source filepath 与 sh filepath 、./filepath的区别：[Linux source命令](https://www.cnblogs.com/pkufork/p/linux_source.html)
+	2. 当shell脚本具有可执行权限时，用sh filepath与./filepath是没有区别的。
+	3. sh filepath 会重新建立一个子shell，在子shell中执行脚本里面的语句，该子shell继承父shell的环境变量，但子shell是新建的，其改变的变量不会被带回父shell，除非使用export。
+	4. source filename其实只是简单地读取脚本里面的语句依次在当前shell里面执行，没有建立新的子shell。那么脚本里面所有新建、改变变量的语句都会保存在当前shell里面。
 # Network
 ## basic concept
 1. [一个蛮不错的blog](http://www.cnblogs.com/JuneWang/p/3917697.html)
