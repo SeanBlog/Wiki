@@ -65,7 +65,7 @@
 
 
 ### vector resize vs reserve
-* resize change size, reserve change capacity
+* resize change size, reserve change capacity, reserve不改变size和当前变量
 * [vector的reserve和resize](https://www.cnblogs.com/qlee/archive/2011/05/16/2048026.html)
 * [vector容器中resize与reserve的区别](https://blog.csdn.net/mm_hh/article/details/63696078)
 
@@ -137,7 +137,10 @@ new (data_[size_ - 1]) T(std::move(x))        // move the copy of T
 ![2](/uploads/2.png "2")
 
 
-
+## lambda
+1. 匿名函数，类似javascript的写法
+2. [lambda](https://en.cppreference.com/w/cpp/language/lambda)
+3. [c++ Lambda函数学习](https://www.cnblogs.com/langzou/p/5962033.html)
 
 # Git
 
