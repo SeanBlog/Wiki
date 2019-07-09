@@ -222,6 +222,10 @@ git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提�
 
 
 
+## pass by reference
+1. [how-do-i-pass-a-variable-by-reference](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference)
+2. ![Fdacu](/uploads/fdacu.png "Fdacu"){.align-center}
+
 # shell
 ## copy-multiple-files-via-cp-from-a-string
 1. [copy-multiple-files-via-cp-from-a-string](https://superuser.com/questions/557166/copy-multiple-files-via-cp-from-a-string)
