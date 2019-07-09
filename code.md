@@ -224,6 +224,8 @@ git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提�
 
 ## pass by reference
 1. [how-do-i-pass-a-variable-by-reference](https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference)
+2. [Python 的函数是怎么传递参数的？](https://www.zhihu.com/question/20591688)
+3. [Python引用传值总结](https://www.cnblogs.com/6tian/p/5802328.html)
 2. ![Fdacu](/uploads/fdacu.png "Fdacu"){.align-center}
 
 # shell
