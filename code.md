@@ -216,7 +216,7 @@ git diff [<options>] [<commit>] [--] [<path>…]   比较工作区与对应提�
 
 ## relative import
 1. [Relative imports for the billionth time](https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time/14132912#14132912)
-2. python 如果是relatevie import的话，是根据module name来判断的，如果是直接python，没有-m，他的module name就是main，不然就是他的package+module+module name
+2. python 如果是relatevie import的话，是根据module name来判断的，如果是直接python，没有-m，他的module name就是main，不然就是他的package+module+module name, 所以main的relative import（有.）都是失败的
 3. 如果是从pakage 直接导入的话，package是会根据执行的py的当前path，pythonpath，syspath去找，可以通过sys.insert来手动修改
 4. [importing-files-from-different-folder](https://stackoverflow.com/questions/4383571/importing-files-from-different-folder)
 
