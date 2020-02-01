@@ -15,6 +15,7 @@ Postgraduate student,Major in computer science
 * [Data Visualization](http://seanshum.cn:3001/data-visualization)
 * [Math](http://seanshum.cn:3001/math)
 * [Machine Learning](http://seanshum.cn:3001/machine-learning)
+* [leetcode](http://seanshum.cn:3001/leetcode)
 # Page Content introduction
 ## SLAM Page
 * Resource
